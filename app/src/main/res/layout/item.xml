@@ -1,0 +1,80 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#9FC8C9"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/pwid"
+            android:layout_width="123dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="4dp"
+            android:text=" ID: 12345"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/studentid"
+            android:layout_width="123dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="4dp"
+            android:text=" ID: 12345"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="197dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="140dp"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/objectif"
+            android:layout_width="197dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/docs"
+            android:layout_width="202dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="120dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tooth"
+            android:layout_width="197dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="180dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="208dp"
+            app:srcCompat="@drawable/dent" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
